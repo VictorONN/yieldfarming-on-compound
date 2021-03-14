@@ -55,19 +55,19 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.5.7;\r\n\r\ninterface ComptrollerInterface {\r\n    function enterMarkets(address[] calldata cTokens)\r\n        external\r\n        returns (uint256[] memory);\r\n\r\n    function claimComp(address holder) external;\r\n\r\n    function getCompAddress() external view returns (address);\r\n}\r\n",
-  "sourcePath": "D:\\ETH\\yieldfarming-on-compound\\contracts\\ComptrollerInterface.sol",
+  "sourcePath": "D:/ETH/yieldfarming-on-compound/contracts/ComptrollerInterface.sol",
   "ast": {
     "absolutePath": "/D/ETH/yieldfarming-on-compound/contracts/ComptrollerInterface.sol",
     "exportedSymbols": {
       "ComptrollerInterface": [
-        327
+        71
       ]
     },
-    "id": 328,
+    "id": 72,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 307,
+        "id": 51,
         "literals": [
           "solidity",
           "^",
@@ -75,7 +75,7 @@
           ".7"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:2"
+        "src": "0:23:1"
       },
       {
         "baseContracts": [],
@@ -83,9 +83,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 327,
+        "id": 71,
         "linearizedBaseContracts": [
-          327
+          71
         ],
         "name": "ComptrollerInterface",
         "nodeType": "ContractDefinition",
@@ -93,23 +93,23 @@
           {
             "body": null,
             "documentation": null,
-            "id": 316,
+            "id": 60,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "enterMarkets",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 311,
+              "id": 55,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 310,
+                  "id": 54,
                   "name": "cTokens",
                   "nodeType": "VariableDeclaration",
-                  "scope": 316,
-                  "src": "87:26:2",
+                  "scope": 60,
+                  "src": "87:26:1",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -118,20 +118,20 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 308,
+                      "id": 52,
                       "name": "address",
                       "nodeType": "ElementaryTypeName",
-                      "src": "87:7:2",
+                      "src": "87:7:1",
                       "stateMutability": "nonpayable",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "id": 309,
+                    "id": 53,
                     "length": null,
                     "nodeType": "ArrayTypeName",
-                    "src": "87:9:2",
+                    "src": "87:9:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
                       "typeString": "address[]"
@@ -141,19 +141,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "86:28:2"
+              "src": "86:28:1"
             },
             "returnParameters": {
-              "id": 315,
+              "id": 59,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 314,
+                  "id": 58,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 316,
-                  "src": "151:16:2",
+                  "scope": 60,
+                  "src": "151:16:1",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -162,19 +162,19 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 312,
+                      "id": 56,
                       "name": "uint256",
                       "nodeType": "ElementaryTypeName",
-                      "src": "151:7:2",
+                      "src": "151:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "id": 313,
+                    "id": 57,
                     "length": null,
                     "nodeType": "ArrayTypeName",
-                    "src": "151:9:2",
+                    "src": "151:9:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                       "typeString": "uint256[]"
@@ -184,10 +184,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "150:18:2"
+              "src": "150:18:1"
             },
-            "scope": 327,
-            "src": "65:104:2",
+            "scope": 71,
+            "src": "65:104:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "external"
@@ -195,23 +195,23 @@
           {
             "body": null,
             "documentation": null,
-            "id": 321,
+            "id": 65,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "claimComp",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 319,
+              "id": 63,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 318,
+                  "id": 62,
                   "name": "holder",
                   "nodeType": "VariableDeclaration",
-                  "scope": 321,
-                  "src": "196:14:2",
+                  "scope": 65,
+                  "src": "196:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -219,10 +219,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 317,
+                    "id": 61,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "196:7:2",
+                    "src": "196:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -233,16 +233,16 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "195:16:2"
+              "src": "195:16:1"
             },
             "returnParameters": {
-              "id": 320,
+              "id": 64,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "220:0:2"
+              "src": "220:0:1"
             },
-            "scope": 327,
-            "src": "177:44:2",
+            "scope": 71,
+            "src": "177:44:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "external"
@@ -250,29 +250,29 @@
           {
             "body": null,
             "documentation": null,
-            "id": 326,
+            "id": 70,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getCompAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 322,
+              "id": 66,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "252:2:2"
+              "src": "252:2:1"
             },
             "returnParameters": {
-              "id": 325,
+              "id": 69,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 324,
+                  "id": 68,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 326,
-                  "src": "278:7:2",
+                  "scope": 70,
+                  "src": "278:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -280,10 +280,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 323,
+                    "id": 67,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "278:7:2",
+                    "src": "278:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -294,27 +294,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "277:9:2"
+              "src": "277:9:1"
             },
-            "scope": 327,
-            "src": "229:58:2",
+            "scope": 71,
+            "src": "229:58:1",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 328,
-        "src": "27:263:2"
+        "scope": 72,
+        "src": "27:263:1"
       }
     ],
-    "src": "0:292:2"
+    "src": "0:292:1"
   },
   "legacyAST": {
     "attributes": {
       "absolutePath": "/D/ETH/yieldfarming-on-compound/contracts/ComptrollerInterface.sol",
       "exportedSymbols": {
         "ComptrollerInterface": [
-          327
+          71
         ]
       }
     },
@@ -328,9 +328,9 @@
             ".7"
           ]
         },
-        "id": 307,
+        "id": 51,
         "name": "PragmaDirective",
-        "src": "0:23:2"
+        "src": "0:23:1"
       },
       {
         "attributes": {
@@ -344,10 +344,10 @@
           "documentation": null,
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            327
+            71
           ],
           "name": "ComptrollerInterface",
-          "scope": 328
+          "scope": 72
         },
         "children": [
           {
@@ -361,7 +361,7 @@
                 null
               ],
               "name": "enterMarkets",
-              "scope": 327,
+              "scope": 71,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "external"
@@ -373,7 +373,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "cTokens",
-                      "scope": 316,
+                      "scope": 60,
                       "stateVariable": false,
                       "storageLocation": "calldata",
                       "type": "address[]",
@@ -393,24 +393,24 @@
                               "stateMutability": "nonpayable",
                               "type": "address"
                             },
-                            "id": 308,
+                            "id": 52,
                             "name": "ElementaryTypeName",
-                            "src": "87:7:2"
+                            "src": "87:7:1"
                           }
                         ],
-                        "id": 309,
+                        "id": 53,
                         "name": "ArrayTypeName",
-                        "src": "87:9:2"
+                        "src": "87:9:1"
                       }
                     ],
-                    "id": 310,
+                    "id": 54,
                     "name": "VariableDeclaration",
-                    "src": "87:26:2"
+                    "src": "87:26:1"
                   }
                 ],
-                "id": 311,
+                "id": 55,
                 "name": "ParameterList",
-                "src": "86:28:2"
+                "src": "86:28:1"
               },
               {
                 "children": [
@@ -418,7 +418,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 316,
+                      "scope": 60,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "uint256[]",
@@ -437,29 +437,29 @@
                               "name": "uint256",
                               "type": "uint256"
                             },
-                            "id": 312,
+                            "id": 56,
                             "name": "ElementaryTypeName",
-                            "src": "151:7:2"
+                            "src": "151:7:1"
                           }
                         ],
-                        "id": 313,
+                        "id": 57,
                         "name": "ArrayTypeName",
-                        "src": "151:9:2"
+                        "src": "151:9:1"
                       }
                     ],
-                    "id": 314,
+                    "id": 58,
                     "name": "VariableDeclaration",
-                    "src": "151:16:2"
+                    "src": "151:16:1"
                   }
                 ],
-                "id": 315,
+                "id": 59,
                 "name": "ParameterList",
-                "src": "150:18:2"
+                "src": "150:18:1"
               }
             ],
-            "id": 316,
+            "id": 60,
             "name": "FunctionDefinition",
-            "src": "65:104:2"
+            "src": "65:104:1"
           },
           {
             "attributes": {
@@ -472,7 +472,7 @@
                 null
               ],
               "name": "claimComp",
-              "scope": 327,
+              "scope": 71,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "external"
@@ -484,7 +484,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "holder",
-                      "scope": 321,
+                      "scope": 65,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -498,19 +498,19 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 317,
+                        "id": 61,
                         "name": "ElementaryTypeName",
-                        "src": "196:7:2"
+                        "src": "196:7:1"
                       }
                     ],
-                    "id": 318,
+                    "id": 62,
                     "name": "VariableDeclaration",
-                    "src": "196:14:2"
+                    "src": "196:14:1"
                   }
                 ],
-                "id": 319,
+                "id": 63,
                 "name": "ParameterList",
-                "src": "195:16:2"
+                "src": "195:16:1"
               },
               {
                 "attributes": {
@@ -519,14 +519,14 @@
                   ]
                 },
                 "children": [],
-                "id": 320,
+                "id": 64,
                 "name": "ParameterList",
-                "src": "220:0:2"
+                "src": "220:0:1"
               }
             ],
-            "id": 321,
+            "id": 65,
             "name": "FunctionDefinition",
-            "src": "177:44:2"
+            "src": "177:44:1"
           },
           {
             "attributes": {
@@ -539,7 +539,7 @@
                 null
               ],
               "name": "getCompAddress",
-              "scope": 327,
+              "scope": 71,
               "stateMutability": "view",
               "superFunction": null,
               "visibility": "external"
@@ -552,9 +552,9 @@
                   ]
                 },
                 "children": [],
-                "id": 322,
+                "id": 66,
                 "name": "ParameterList",
-                "src": "252:2:2"
+                "src": "252:2:1"
               },
               {
                 "children": [
@@ -562,7 +562,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 326,
+                      "scope": 70,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -576,34 +576,34 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 323,
+                        "id": 67,
                         "name": "ElementaryTypeName",
-                        "src": "278:7:2"
+                        "src": "278:7:1"
                       }
                     ],
-                    "id": 324,
+                    "id": 68,
                     "name": "VariableDeclaration",
-                    "src": "278:7:2"
+                    "src": "278:7:1"
                   }
                 ],
-                "id": 325,
+                "id": 69,
                 "name": "ParameterList",
-                "src": "277:9:2"
+                "src": "277:9:1"
               }
             ],
-            "id": 326,
+            "id": 70,
             "name": "FunctionDefinition",
-            "src": "229:58:2"
+            "src": "229:58:1"
           }
         ],
-        "id": 327,
+        "id": 71,
         "name": "ContractDefinition",
-        "src": "27:263:2"
+        "src": "27:263:1"
       }
     ],
-    "id": 328,
+    "id": 72,
     "name": "SourceUnit",
-    "src": "0:292:2"
+    "src": "0:292:1"
   },
   "compiler": {
     "name": "solc",
@@ -611,7 +611,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-03-12T19:43:34.796Z",
+  "updatedAt": "2021-03-13T12:50:04.820Z",
   "devdoc": {
     "methods": {}
   },

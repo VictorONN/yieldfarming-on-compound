@@ -17,7 +17,7 @@ contract YieldFarmer is ICallee, DydxFlashloanBase, Compound {
     }
     address public owner;
 
-    constructor() public {
+    constructor(address _comptroller) public Compound(_comptroller) {
         owner = msg.sender;
     }
 
